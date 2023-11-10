@@ -59,7 +59,7 @@ function logIn(){
       // ..
     });
 }
-  function loginWithGoogle(){
+  function loginwithGoogle(){
     var provider = new firebase.auth.GoogleAuthProvider();
     firebase.auth()
   .signInWithPopup(provider)
@@ -83,6 +83,10 @@ function logIn(){
     var credential = error.credential;
     // ...
   });
+}
+
+function loginwithGithub(){
+  
 }
   
 
